@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>org.connectorio.helenus</groupId>
+        <artifactId>types</artifactId>
+        <version>0.1.0-SNAPSHOT</version>
+    </parent>
+
+    <artifactId>jdk8</artifactId>
+
+    <name>Helenus | Types | JDK8</name>
+    <description>Support for Java 8 features in helenus.</description>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.connectorio.helenus</groupId>
+            <artifactId>api</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.connectorio.helenus</groupId>
+            <artifactId>mapping</artifactId>
+        </dependency>
+    </dependencies>
+
+</project>

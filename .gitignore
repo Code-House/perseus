@@ -1,0 +1,26 @@
+# Default ignored files
+/.idea/shelf/
+/.idea/workspace.xml
+
+# Project exclude paths
+/api/target/
+/context/common/target/
+/context/cql/target/
+/context/hbase/target/
+/context/jdbc/target/
+/dao/target/
+/dsl/target/
+/mapping/target/
+/trait/target/
+/types/guava/target/
+/types/jdk8/target/
+/visitor/target/
+
+# Datasource local storage ignored files
+/.idea/dataSources/
+dataSources.local.xml
+
+# Editor-based HTTP Client requests
+/.idea/httpRequests/
+rest-client.private.env.json
+http-client.private.env.json
